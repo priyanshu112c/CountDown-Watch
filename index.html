@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Countdown</title>
+</head>
+
+<body>
+    <div class="main">
+        <div class="overlay">
+            <div class="title"><h2 id="write">We are coming soon</h2></div>
+            <div class="date" >
+                <div class="enter-val">
+                    <input type="text" placeholder="Event (format ex: 20 march 2022 12:00PM)" id="inputenter">
+                    <button class="buttonClass" id="mybtn">ENTER</button>
+                </div>
+                <h2 id="end-date">21 March 2022 10:00 PM</h2>
+            </div>
+            <div class="conatiner-date-block">
+                <div class="input" >
+                    <input type="text" readonly value="0">
+                    <label for="">Days</label>
+                </div>
+                <div class="input">
+                    <input type="text" readonly value="0">
+                    <label for="">Hours</label>
+                </div>
+                <div class="input">
+                    <input type="text" readonly value="0">
+                    <label for="">Minutes</label>
+                </div>
+                <div class="input">
+                    <input type="text" readonly value="0">
+                    <label for="">Second</label>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <script src="main.js"></script>
+</body>
+
+</html>
